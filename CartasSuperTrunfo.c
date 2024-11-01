@@ -5,27 +5,45 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
 
+#include <stdio.h>
+
+// Desafio Super Trunfo - Países
+// Tema 1 - Cadastro das Cartas
+// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
+// Siga os comentários para implementar cada parte do desafio.
+
 int main() {
     printf("Desafio Cartas Super Trunfo!!\n");
-
-    printf("\n");                                       //Melhorar a visual do terminal.
+    printf("\n");
+    printf("BRASIL\n");
+    printf("\n");
+    printf("Estados A=Santa Catarina\n");
+    printf("Estados B=Paraná\n");
+    printf("Estados C=Rio Grande do Sul\n");
+    printf("Estados D=São Paulo\n");
+    printf("Estados E=Rio de Janeiro\n");
+    printf("Estados F=Minas Gerais\n");
+    printf("Estados G=Mato Grosso do Sul\n");
+    printf("Estados H=Goiais\n");
+    printf("\n");
+    printf("CARTA\n");                                       //Melhorar a visual do terminal.
     
-    int tur = 5;
-    float habitantes = 532.59;
-    double area = 65295.54;
-    char codigo = 'A';
-    int numero = 1;
-    char nome[30] = "Jaragua do Sul";
+    int tur = 5;                                        //PONTOS TURÍSTCOS 
+    float habitantes = 195753;                          //POPULAÇÃO
+    double area = 530.89;                               //AREA
+    double pib = 65295.54;                              //PIB
+    char codigo = 'A';                                  //CODIGO REFERENTE AO PAÍS
+    int numero = 1;                                     //CODIGO REFERENTE AO ESTADO
+    char nome[30] = "Jaragua do Sul";                   //NOME DA CARTA
  
 
-    printf("Nome: %s\n", nome);
+    printf("Cidade:  %s\n", nome);
     printf("Codigo da cidade: %c-%d\n", codigo,numero);
     printf("Pontos de turismo: %d locais\n", tur);
     printf("População: %.2f habitantes\n", habitantes);
     printf("Area Total: %.2f km²\n", area);
-    printf("\n");                                               //Apenas pra me localizar melhor no terminal.
-
-
+    printf("PIB: %.2f km²\n", pib);
+    printf("\n");                                        //Apenas pra me localizar melhor no terminal.
 
     
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
