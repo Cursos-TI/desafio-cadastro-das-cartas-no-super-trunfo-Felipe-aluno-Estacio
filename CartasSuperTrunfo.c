@@ -34,7 +34,7 @@ int main() {
     double pib = 65295.54;                              //PIB
     char codigo = 'A';                                  //CODIGO REFERENTE AO PAÍS
     int numero = 1;                                     //CODIGO REFERENTE AO ESTADO
-    char nome[30] = "Jaragua do Sul";                   //NOME DA CARTA
+    char nome[30] = "JARAGUÁ DO SUL";                   //NOME DA CARTA
  
 
     printf("Cidade:  %s\n", nome);
@@ -42,7 +42,7 @@ int main() {
     printf("Pontos de turismo: %d locais\n", tur);
     printf("População: %.2f habitantes\n", habitantes);
     printf("Area Total: %.2f km²\n", area);
-    printf("PIB: %.2f km²\n", pib);
+    printf("PIB: %.2f R$\n", pib);
     printf("\n");                                        //Apenas pra me localizar melhor no terminal.
 
     
