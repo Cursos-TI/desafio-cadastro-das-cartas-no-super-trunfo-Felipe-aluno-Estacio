@@ -5,8 +5,24 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
 
+
 int main() {
-    printf ("Desafio xadrez!\n");
+    int tur = 5;
+    float habitantes = 532.59;
+    double area = 65295.54;
+    char codigo = 'A';
+    int numero = 1;
+    char nome[30] = "Jaragua do Sul";
+    
+ 
+
+    printf("Nome: %s\n", nome);
+    printf("Codigo da cidade: %c-%d\n", codigo,numero);
+    printf("Pontos de turismo: %d locais\n", tur);
+    printf("População: %.2f habitantes\n", habitantes);
+    printf("Area Total: %.2f km²\n", area); 
+
+    
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
