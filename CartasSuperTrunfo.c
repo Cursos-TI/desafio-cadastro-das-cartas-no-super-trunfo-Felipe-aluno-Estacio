@@ -6,182 +6,172 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
-    printf("Desafio Cartas Super Trunfo!!\n");
-    printf("\n");
-    printf("BRASIL\n");
-    printf("\n");
-    printf("Estados A=Santa Catarina\n");
-    printf("Estados B=Paraná\n");
-    printf("Estados C=Rio Grande do Sul\n");
-    printf("Estados D=São Paulo\n");
-    printf("Estados E=Rio de Janeiro\n");
-    printf("Estados F=Minas Gerais\n");
-    printf("Estados G=Mato Grosso do Sul\n");
-    printf("Estados H=Goiais\n");
-    printf("\n");
- 
-    printf("CARTA\n");                                       //Melhorar a visual do terminal.
-    
-    int tur = 10;                                        //PONTOS TURÍSTCOS 
-    int habitantes = 195753;                           //POPULAÇÃO
-    double area = 530.90;                               //AREA
-    double pib = 65295.54;                              //PIB
-    char codigo = 'A';                                  //CODIGO REFERENTE AO PAÍS
-    int numero = 1;                                     //CODIGO REFERENTE AO ESTADO
-    char nome[30] = "JARAGUA DO SUL";                   //NOME DA CARTA
- 
+    // Variaveis do cadastro, pra todas
+    char codigo[5];  // Código da cidade (ex: A01, A02, ..., H04)
+    int populacao;    // População da cidade
+    float area;       // Área da cidade (em km²)
+    float pib;        // PIB da cidade (em milhões)
+    int pontos_turisticos;  // Número de pontos turísticos
 
-    printf("Cidade:  %s\n", nome);
-    printf("Codigo da cidade: %c-%d\n", codigo,numero);
-    printf("Pontos de turismo: %d locais\n", tur);
-    printf("População: %d habitantes\n", habitantes);
-    printf("Area Total: %.2f km²\n", area);
-    printf("PIB: %.2f R$\n", pib);
-    printf("\n");                                        //Apenas pra me localizar melhor no terminal.
+    // Estado A
+
+    printf("Cadastro da cidade A01:\n");
+    printf("Digite o código da cidade A01): ");
+    scanf("%s", codigo);  // Lê o código da cidade
+    printf("Digite a população: ");
+    scanf("%d", &populacao);
+    printf("Digite a área da cidade (em km²): ");
+    scanf("%f", &area);
+    printf("Digite o PIB da cidade (em milhões): ");
+    scanf("%f", &pib);
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &pontos_turisticos);
+    printf("\nDados da cidade %s:\n", codigo);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: R$ %.2f milhões\n", pib);
+    printf("Pontos turísticos: %d\n\n", pontos_turisticos);
+
+    // A02
+    printf("Cadastro da cidade A02:\n");
+    printf("Digite o código da cidade (ex: A02): ");
+    scanf("%s", codigo);
+    printf("Digite a população: ");
+    scanf("%d", &populacao);
+    printf("Digite a área da cidade (em km²): ");
+    scanf("%f", &area);
+    printf("Digite o PIB da cidade (em milhões): ");
+    scanf("%f", &pib);
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &pontos_turisticos);
+    printf("\nDados da cidade %s:\n", codigo);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: R$ %.2f milhões\n", pib);
+    printf("Pontos turísticos: %d\n\n", pontos_turisticos);
+
+    // A03
+    printf("Cadastro da cidade A03:\n");
+    printf("Digite o código da cidade (ex: A03): ");
+    scanf("%s", codigo);
+    printf("Digite a população: ");
+    scanf("%d", &populacao);
+    printf("Digite a área da cidade (em km²): ");
+    scanf("%f", &area);
+    printf("Digite o PIB da cidade (em milhões): ");
+    scanf("%f", &pib);
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &pontos_turisticos);
+    printf("\nDados da cidade %s:\n", codigo);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: R$ %.2f milhões\n", pib);
+    printf("Pontos turísticos: %d\n\n", pontos_turisticos);
+
+    // A04
+    printf("Cadastro da cidade A04:\n");
+    printf("Digite o código da cidade (ex: A04): ");
+    scanf("%s", codigo);
+    printf("Digite a população: ");
+    scanf("%d", &populacao);
+    printf("Digite a área da cidade (em km²): ");
+    scanf("%f", &area);
+    printf("Digite o PIB da cidade (em milhões): ");
+    scanf("%f", &pib);
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &pontos_turisticos);
+    printf("\nDados da cidade %s:\n", codigo);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: R$ %.2f milhões\n", pib);
+    printf("Pontos turísticos: %d\n\n", pontos_turisticos);
+
+    // Estado B
+    printf("Cadastro da cidade B01:\n");
+    printf("Digite o código da cidade (ex: B01): ");
+    scanf("%s", codigo);
+    printf("Digite a população: ");
+    scanf("%d", &populacao);
+    printf("Digite a área da cidade (em km²): ");
+    scanf("%f", &area);
+    printf("Digite o PIB da cidade (em milhões): ");
+    scanf("%f", &pib);
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &pontos_turisticos);
+    printf("\nDados da cidade %s:\n", codigo);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: R$ %.2f milhões\n", pib);
+    printf("Pontos turísticos: %d\n\n", pontos_turisticos);
+
+    // B02
+    printf("Cadastro da cidade B02:\n");
+    printf("Digite o código da cidade (ex: B02): ");
+    scanf("%s", codigo);
+    printf("Digite a população: ");
+    scanf("%d", &populacao);
+    printf("Digite a área da cidade (em km²): ");
+    scanf("%f", &area);
+    printf("Digite o PIB da cidade (em milhões): ");
+    scanf("%f", &pib);
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &pontos_turisticos);
+    printf("\nDados da cidade %s:\n", codigo);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: R$ %.2f milhões\n", pib);
+    printf("Pontos turísticos: %d\n\n", pontos_turisticos);
+
+    // B03
+    printf("Cadastro da cidade B03:\n");
+    printf("Digite o código da cidade (ex: B03): ");
+    scanf("%s", codigo);
+    printf("Digite a população: ");
+    scanf("%d", &populacao);
+    printf("Digite a área da cidade (em km²): ");
+    scanf("%f", &area);
+    printf("Digite o PIB da cidade (em milhões): ");
+    scanf("%f", &pib);
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &pontos_turisticos);
+    printf("\nDados da cidade %s:\n", codigo);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: R$ %.2f milhões\n", pib);
+    printf("Pontos turísticos: %d\n\n", pontos_turisticos);
+
+    // B04
+    printf("Cadastro da cidade B04:\n");
+    printf("Digite o código da cidade (ex: B04): ");
+    scanf("%s", codigo);
+    printf("Digite a população: ");
+    scanf("%d", &populacao);
+    printf("Digite a área da cidade (em km²): ");
+    scanf("%f", &area);
+    printf("Digite o PIB da cidade (em milhões): ");
+    scanf("%f", &pib);
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &pontos_turisticos);
+    printf("\nDados da cidade %s:\n", codigo);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: R$ %.2f milhões\n", pib);
+    printf("Pontos turísticos: %d\n\n", pontos_turisticos);
 
 
-    
-    
-    //PROMIXA CARTA 
-    printf("CARTA\n");                                   //Melhorar a visual do terminal.
-    
-    int tur1 = 7;                                         //PONTOS TURÍSTCOS 
-    int habitantes1 = 46099;                            //POPULAÇÃO
-    double area1 =  128.40;                               //AREA
-    double pib1 = 55453.40;                                   //PIB
-    char codigo1 = 'A';                                   //CODIGO REFERENTE AO PAÍS
-    int numero1 = 2;                                      //CODIGO REFERENTE AO ESTADO
-    char nome1[30] = "TIMBÓ";                             //NOME DA CARTA
- 
-    printf("Cidade:  %s\n", nome1);
-    printf("Codigo da cidade: %c-%d\n", codigo1,numero1);
-    printf("Pontos de turismo: %d locais\n", tur1);
-    printf("População: %d habitantes\n", habitantes1);
-    printf("Area Total: %.2f km²\n", area1);
-    printf("PIB: %.2f R$\n", pib1);
-    printf("\n");               
 
-     //PROMIXA CARTA 
-    printf("CARTA\n");                                   //Melhorar a visual do terminal.
-    
-    int tur2 = 42;                                        //PONTOS TURÍSTCOS 
-    int habitantes2 = 537211;                             //POPULAÇÃO
-    double area2 =  675.40;                               //AREA
-    double pib2 = 45602.98;                               //PIB
-    char codigo2 = 'A';                                   //CODIGO REFERENTE AO PAÍS
-    int numero2 = 3;                                      //CODIGO REFERENTE AO ESTADO
-    char nome2[30] = "FLORIANÓPOLIS";                     //NOME DA CARTA
- 
-    printf("Cidade:  %s\n", nome2);
-    printf("Codigo da cidade: %c-%d\n", codigo2,numero2);
-    printf("Pontos de turismo: %d locais\n", tur2);
-    printf("População: %d habitantes\n", habitantes2);
-    printf("Area Total: %.2f km²\n", area2);
-    printf("PIB: %.2f R$\n", pib2);
-    printf("\n");               
 
-     //PROMIXA CARTA 
-    printf("CARTA\n");                                   //Melhorar a visual do terminal.
-    
-    int tur3 = 12;                                        //PONTOS TURÍSTCOS 
-    int habitantes3 = 616317;                           //POPULAÇÃO
-    double area3 = 1126.00;                               //AREA
-    double pib3 = 74531.62;                              //PIB
-    char codigo3 = 'A';                                  //CODIGO REFERENTE AO PAÍS
-    int numero3 = 4;                                     //CODIGO REFERENTE AO ESTADO
-    char nome3[30] = "JOINVILLE";                   //NOME DA CARTA
- 
 
-    printf("Cidade:  %s\n", nome3);
-    printf("Codigo da cidade: %c-%d\n", codigo3,numero3);
-    printf("Pontos de turismo: %d locais\n", tur3);
-    printf("População: %d habitantes\n", habitantes3);
-    printf("Area Total: %.2f km²\n", area3);
-    printf("PIB: %.2f R$\n", pib3);
-    printf("\n");                                        //Apenas pra me localizar melhor no terminal.
+    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
+    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
-    //PROMIXA CARTA 
-    printf("CARTA\n");                                   //Melhorar a visual do terminal.
+    // Cadastro das Cartas:
+    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
+    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     
-    int tur4 = 11;                                        //PONTOS TURÍSTCOS 
-    int habitantes4 = 380597;                           //POPULAÇÃO
-    double area4 = 519.83;                               //AREA
-    double pib4 = 56155.65;                              //PIB
-    char codigo4 = 'A';                                  //CODIGO REFERENTE AO PAÍS
-    int numero4 = 5;                                     //CODIGO REFERENTE AO ESTADO
-    char nome4[30] = "BLUMENAU";                   //NOME DA CARTA
- 
-
-    printf("Cidade:  %s\n", nome4);
-    printf("Codigo da cidade: %c-%d\n", codigo4,numero4);
-    printf("Pontos de turismo: %d locais\n", tur4);
-    printf("População: %d habitantes\n", habitantes4);
-    printf("Area Total: %.2f km²\n", area4);
-    printf("PIB: %.2f R$\n", pib4);
-    printf("\n");                                        //Apenas pra me localizar melhor no terminal.
-
-    //PROMIXA CARTA 
-    printf("CARTA\n");                                   //Melhorar a visual do terminal.
-    
-    int tur5 = 18;                                        //PONTOS TURÍSTCOS 
-    int habitantes5 = 264054;                           //POPULAÇÃO
-    double area5 = 289.30;                               //AREA
-    double pib5 = 210719.12;                              //PIB
-    char codigo5 = 'A';                                  //CODIGO REFERENTE AO PAÍS
-    int numero5 = 6;                                     //CODIGO REFERENTE AO ESTADO
-    char nome5[30] = "ITAJAÍ";                   //NOME DA CARTA
- 
-
-    printf("Cidade:  %s\n", nome5);
-    printf("Codigo da cidade: %c-%d\n", codigo5,numero5);
-    printf("Pontos de turismo: %d locais\n", tur5);
-    printf("População: %d habitantes\n", habitantes5);
-    printf("Area Total: %.2f km²\n", area5);
-    printf("PIB: %.2f R$\n", pib5);
-    printf("\n");                                        //Apenas pra me localizar melhor no terminal.
-        
-    //PROMIXA CARTA 
-    printf("CARTA\n");                                   //Melhorar a visual do terminal.
-    
-    int tur6 = 9;                                        //PONTOS TURÍSTCOS 
-    int habitantes6 = 254785;                           //POPULAÇÃO
-    double area6 = 624.08;                               //AREA
-    double pib6 = 60166.46;                              //PIB
-    char codigo6 = 'A';                                  //CODIGO REFERENTE AO PAÍS
-    int numero6 = 7;                                     //CODIGO REFERENTE AO ESTADO
-    char nome6[30] = "CHAPECÓ";                   //NOME DA CARTA
- 
-
-    printf("Cidade:  %s\n", nome6);
-    printf("Codigo da cidade: %c-%d\n", codigo6,numero6);
-    printf("Pontos de turismo: %d locais\n", tur6);
-    printf("População: %d habitantes\n", habitantes6);
-    printf("Area Total: %.2f km²\n", area6);
-    printf("PIB: %.2f R$\n", pib6);
-    printf("\n");                                        //Apenas pra me localizar melhor no terminal.
-    
-    //PROMIXA CARTA 
-    printf("CARTA\n");                                   //Melhorar a visual do terminal.
-    
-    int tur7 = 15;                                        //PONTOS TURÍSTCOS 
-    int habitantes7 = 225281;                           //POPULAÇÃO
-    double area7 = 235.60;                               //AREA
-    double pib7 = 45871.13;                              //PIB
-    char codigo7 = 'A';                                  //CODIGO REFERENTE AO PAÍS
-    int numero7 = 8;                                     //CODIGO REFERENTE AO ESTADO
-    char nome7[30] = "CRICIÚMA";                   //NOME DA CARTA
- 
-
-    printf("Cidade:  %s\n", nome7);
-    printf("Codigo da cidade: %c-%d\n", codigo7,numero7);
-    printf("Pontos de turismo: %d locais\n", tur7);
-    printf("População: %d habitantes\n", habitantes7);
-    printf("Area Total: %.2f km²\n", area7);
-    printf("PIB: %.2f R$\n", pib7);
-    printf("\n");                                        //Apenas pra me localizar melhor no terminal.
-    
-    //PROMIXA CARTA 
-    printf("CARTA\n");                                   //Melhorar a visual do terminal.
+    // Exibição dos Dados das Cartas:
+    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
+    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     return 0;
 }
